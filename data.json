@@ -1,0 +1,114 @@
+{
+    "project_logo": "./assets/logo.png",
+    "project_favicon": "favicon.png",
+    "project_name": "Zurbstrum",
+    "project_url": null,
+    "copyright_start_year": null,
+    "client_name": "dendev",
+    "client_url": null,
+    "creators": [
+        {
+            "name": "dendev",
+            "url": null
+        }
+    ],
+    "theme": {
+        "border_color": "#E0E6ED",
+        "highlight_color": "#F9FAFC",
+        "brand_color": "#00585C",
+        "background_color": "#FFFFFF",
+        "code_highlight_theme": "github",
+        "override_code_highlight_bg": "#F9FAFC",
+        "sample_dark_background": "#333333",
+        "show_project_name": true,
+        "show_version": true,
+        "max_width": null,
+        "titles": {
+            "library_title": "Astrum + Zurb",
+            "pages_title": "Overview",
+            "components_title": "Components"
+        }
+    },
+    "assets": {
+        "css": [
+            "./zurb-foundation/css/app.css"
+        ],
+        "js": [
+            "./zurb-foundation/js/app.js"
+        ]
+    },
+    "font_libraries": {
+        "typekit_code": null,
+        "typography_web_fonts": null,
+        "google_web_fonts": null
+    },
+    "content": {
+        "show_first_page_on_load": true,
+        "title": "Pages",
+        "pages": [
+            {
+                "name": "readme",
+                "title": "Readme",
+                "file": "./pages/readme.md"
+            },
+            {
+                "name": "introduction",
+                "title": "Introduction",
+                "file": "./pages/intro.md"
+            }
+        ]
+    },
+    "groups": [
+        {
+            "name": "color",
+            "title": "Color",
+            "components": [
+                {
+                    "group": "color",
+                    "name": "basic",
+                    "title": "Basic Color"
+                }
+            ]
+        },
+        {
+            "name": "general",
+            "title": "General",
+            "components": [
+                {
+                    "group": "general",
+                    "name": "xy-grid",
+                    "title": "XY Grid"
+                }
+            ]
+        },
+        {
+            "name": "buttons",
+            "title": "Buttons",
+            "components": [
+                {
+                    "group": "buttons",
+                    "name": "primary",
+                    "title": "Primary Button",
+                    "width": "half"
+                }
+            ]
+        },
+        {
+            "name": "navigation",
+            "title": "Navigation",
+            "components": [
+                {
+                    "group": "navigation",
+                    "name": "dropdown-menu",
+                    "title": "Dropdown Menu",
+                    "width": "half"
+                }
+            ]
+        }
+    ],
+    "version": "1.9.5",
+    "zurb": {
+        "show_version": true,
+        "version": "6" 
+    }
+}
